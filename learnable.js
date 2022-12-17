@@ -1,5 +1,6 @@
 // CLASSIFICATION OF KINGDOM ANIMALIA
 
+// Abstraction
 class Animal {
   constructor() {
     if (this.constructor == Animal) {
@@ -13,6 +14,7 @@ class Animal {
   }
 }
 
+// Inheritance and Encapsulation
 class createAnimalProfile extends Animal {
   constructor(animalClass, animalName, hasBackbone, animalBloodType) {
     super();
@@ -39,6 +41,7 @@ class createAnimalProfile extends Animal {
   }
 }
 
+// Polymorphism
 const butterfly = new createAnimalProfile(
   "Arthropoda",
   "Butterfly",

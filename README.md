@@ -7,15 +7,36 @@
 - use the following command terminal
 
 ```
+# run learnable.js
 node learnable.js
 ```
 
 ### SAMPLE
 
-- You can access animal variables using the '.' notation to access the properties
 > Make sure your current file is `learnable.js`
-
+- you can access animal properties using the corresponding variable
 ```
+# animal variable
+
+butterfly
+```
+- Then using the dot ('.') notation, you can access it's properties
+```
+# access properties
+
 butterfly.
 ```
-- Then run
+- Then select the property you want to view 
+```
+# select property
+
+butterfly.animalClass
+```
+- Then RUN
+```
+# possible output
+
+Arthropoda
+```
+
+

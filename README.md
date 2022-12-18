@@ -8,11 +8,11 @@
 
 ***bash
 node learnable.js
+***
 
+### SAMPLE
 
 - You can access other animal variables using the '.' notation to access the properties.
-
-#### sample
 
 ***node
 butterfly.

@@ -8,6 +8,7 @@
 
 ```
 # run learnable.js
+
 node learnable.js
 ```
 
@@ -26,7 +27,7 @@ butterfly
 
 butterfly.
 ```
-- Then select the property you want to view 
+- Then select the property you want to access 
 ```
 # select property
 

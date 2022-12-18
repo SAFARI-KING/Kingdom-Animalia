@@ -9,7 +9,7 @@ class Animal {
   }
   animal() {
     console.log(
-      "I am a living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli."
+      "\nI am a living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli."
     );
   }
 }
@@ -26,7 +26,8 @@ class createAnimalProfile extends Animal {
 
   #animalProfile() {
     console.log(
-      this.animalName +
+      "\n" +
+        this.animalName +
         " is part of the animal class " +
         this.animalClass.toUpperCase() +
         " and is a " +
@@ -63,3 +64,7 @@ const turtle = new createAnimalProfile(
 const bird = new createAnimalProfile("AVES", "Bird", true, "Warm-blooded");
 
 const cat = new createAnimalProfile("Mammals", "Cat", true, "Warm-blooded");
+
+// log and access
+butterfly.animal();
+butterfly.accessProfile();

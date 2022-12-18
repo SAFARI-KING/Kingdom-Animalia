@@ -6,7 +6,7 @@
 - To run solution, make sure you have nodejs installed
 - use the following command terminal
 
-***node
+***bash
 node learnable.js
 ***
 
